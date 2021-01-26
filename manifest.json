@@ -1,7 +1,6 @@
 {
  "short_name": "Site for PWA test",
  "name": "Site for PWA test",
- "name": "Скорочтец",
  "icons": [
        {
      "src":"pineapple.png",
