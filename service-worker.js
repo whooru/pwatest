@@ -34,7 +34,9 @@ self.addEventListener('install', function(event) {
                        .then(assets => {
                        // Открываем и кэшируем нужные страницы и файлы
                            const urlsToCache = [
-                               'https://whooru.github.io/pwatest'
+                               'https://whooru.github.io/pwatest',
+                               'https://whooru.github.io/pwatest/page2',
+                               
                            ]
                            cache.addAll(urlsToCache)
                            console.log('cached');
