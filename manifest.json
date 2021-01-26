@@ -1,0 +1,17 @@
+{
+ "short_name": "Site for PWA test",
+ "name": "Site for PWA test",
+ "name": "Скорочтец",
+ "icons": [
+       {
+     "src":"pineapple.png",
+     "sizes": "512x512",
+     "type": "image/png"
+   }],
+
+ "start_url": "/",
+ "background_color": "#7ACCE5",
+ "theme_color": "#7ACCE5",
+ "orientation": "any",
+ "display": "standalone"
+}
