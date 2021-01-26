@@ -7,7 +7,13 @@
      "src":"pineapple.png",
      "sizes": "512x512",
      "type": "image/png"
-   }],
+   },
+   {
+    "src":"pineapple128x128.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  }
+],
 
  "start_url": "/",
  "background_color": "#7ACCE5",
