@@ -15,7 +15,7 @@
   }
 ],
 
- "start_url": "/pwatest/index.html",
+ "start_url": "/pwatest/?",
  "background_color": "#7ACCE5",
  "theme_color": "#7ACCE5",
  "orientation": "any",
