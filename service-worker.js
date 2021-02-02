@@ -3,7 +3,12 @@ var doCache = true;
 
 // Имя кэша
 var CACHE_NAME = 'my-pwa-cache-v2';
-
+var urlsToCache = [
+    '/pwatest/',
+    '/pwatest/page2.html',
+    '/pwatest/index.html',
+    
+]
 // Очищает старый кэш
 self.addEventListener('activate', event => {
    const cacheWhitelist = [CACHE_NAME];
@@ -33,12 +38,12 @@ self.addEventListener('install', function(event) {
                        })
                        .then(assets => {
                        // Открываем и кэшируем нужные страницы и файлы
-                           const urlsToCache = [
-                               '/pwatest/',
-                               '/pwatest/page2.html',
-                               '/pwatest/index.html',
+                        //    const urlsToCache = [
+                        //        '/pwatest/',
+                        //        '/pwatest/page2.html',
+                        //        '/pwatest/index.html',
                                
-                           ]
+                        //    ]
                            cache.addAll(urlsToCache)
                            console.log('cached');
                        })
