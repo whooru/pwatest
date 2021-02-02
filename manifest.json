@@ -15,9 +15,10 @@
   }
 ],
 
- "start_url": "/pwatest/?",
- "background_color": "#7ACCE5",
- "theme_color": "#7ACCE5",
- "orientation": "any",
- "display": "standalone"
+   "start_url": "https://whooru.github.io/pwatest/",
+    "background_color": "#7ACCE5",
+    "theme_color": "#7ACCE5",
+    "orientation": "any",
+    "display": "standalone",
+    "url": "https://whooru.github.io/pwatest/?"
 }
