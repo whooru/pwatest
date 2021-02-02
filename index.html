@@ -11,8 +11,13 @@
  
 </head>
 <body>
-  
   <script>
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+  </script>
+  <!-- <script>
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
             navigator.serviceWorker.register('service-worker.js').then(function(registration) {
@@ -28,7 +33,7 @@
       } else {
         console.log('service worker is not supported');
       }
-</script>
+</script> -->
   <div class="nav-bar">
     <form action="/pwatest/page2.html">
       <button  type="submit">Page 2</button>
